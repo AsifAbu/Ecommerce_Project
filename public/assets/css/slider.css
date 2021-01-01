@@ -1,0 +1,72 @@
+
+  .slidersize {
+    height: 250px;
+    width: 100%;
+  }
+  
+  /* slider */
+  #slider .col-md-3 {
+    display: inline-block;
+    margin-left: -4px;
+  }
+  
+  #slider .col-md-3 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #slider .carousel-indicators li {
+    background-color: #cecece;
+  }
+  
+  #slider .carousel-control-prev-icon,
+  #slider .carousel-control-next-icon {
+    background-color: #cecece;
+  
+  }
+  
+  #slider .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  
+  /* next slider */
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+  
+  #slidernext h1 {
+    font-family: 'Montserrat';
+  }
+  
+  .carousel-nav-icon {
+    height: 100px;
+    width: 100px;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .slidersize {
+      height: 200px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .slidersize {
+      height: 100px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 700px) {
+  
+    .slidersize {
+      height: 65px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+  
+    .slidersize {
+      height: 40px;
+    }
+  }
